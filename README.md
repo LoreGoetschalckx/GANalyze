@@ -97,7 +97,7 @@ The following is a BibTeX reference entry:
 @article{,
   title={GANalyze: Toward Visual Definitions of Cognitive Image Properties},
   author={Goetschalckx, Lore and Andonian, Alex and Oliva, Aude and Isola, Phillip},
-  journal={},
+  journal={arXiv preprint arXiv:1906.10112},
   year={2019}
 }
 ```
