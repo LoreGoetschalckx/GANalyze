@@ -89,12 +89,12 @@ This script will populate a subdirectory of `./output` (uses same naming convent
 
 If you use this code or work, please cite:
 
-L. Goetschalckx, A. Andonian, A. Oliva, and P. Isola. GANalyze: Toward Visiual Definitions of Cognitive Image Properties. , 2019.
+L. Goetschalckx, A. Andonian, A. Oliva, and P. Isola. GANalyze: Toward Visiual Definitions of Cognitive Image Properties. arXiv:1906.10112, 2019.
 
 The following is a BibTeX reference entry:
 
 ```markdown
-@article{,
+@article{
   title={GANalyze: Toward Visual Definitions of Cognitive Image Properties},
   author={Goetschalckx, Lore and Andonian, Alex and Oliva, Aude and Isola, Phillip},
   journal={arXiv preprint arXiv:1906.10112},
