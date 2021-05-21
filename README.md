@@ -8,6 +8,7 @@ The authors' official implementation of *GANalyze*, a framework for studying cog
 ## Overview
 - [Requirements and Installation](#requirements-and-installation)
 - [Quick Start](#quick-start)
+- [Additional Notes](#additional-notes)
 - [Reference](#reference)
 
 ## Requirements and Installation
@@ -84,6 +85,10 @@ python test_tf.py \
 ```
 
 This script will populate a subdirectory of `./output` (uses same naming convention as training) with samples have been transformed by several steps of size `alpha`.
+
+## Additional Notes
+Please note the following:
+- The original train_pytorch.py, used for the results on emotional valence, did not contain the optimizer.zero_grad() line. This was unintentional. We've added it to the current version because it's the more standard thing to do.
 
 ## Reference
 
