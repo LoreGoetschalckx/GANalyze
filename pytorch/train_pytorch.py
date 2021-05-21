@@ -159,6 +159,9 @@ ys = np.random.randint(0, vocab_size, size=zs.shape[0])
 # loop over data batches
 for batch_start in range(0, num_samples, batch_size):
 
+    # zero the parameter gradients
+    optimizer.zero_grad()
+
     # skip batches we've already done (this would happen when resuming from a checkpoint)
     if batch_start <= checkpoint_resume and checkpoint_resume != 0:
         optim_iter = optim_iter + 1
